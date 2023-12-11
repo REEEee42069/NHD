@@ -1,0 +1,71 @@
+<head>
+  <link rel="icon" type="image/png" sizes="256x256" href="./iconbg.png">
+  <title>NHD</title>
+  <link rel="stylesheet" href="info.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #5D5955">
+<h1><center>U.S. Marine Core</center></h1>
+<span class="h2b">The Marine were formed in <b>1775</b></span>
+
+
+
+
+<h2 class="h1b" style="color:#f4f4f4">The US Marine Core changes warfare for the better because they can attack via land, sea, and air</h2>
+
+
+
+<!--Socials><-->
+<button class="floating-btn">
+    Get in Touch
+  </button>
+<div class="social-panel-container">
+  <div class="social-panel">
+    <p>Created with <i class="fa fa-heart"></i>, by
+      <a target="_blank" href="../">Skyler</a></p>
+    <button class="close-btn"><i class="fas fa-times"></i></button>
+    <h4>Get in touch on</h4>
+    <ul>
+      <li>
+	<a href="https://patreon.com/Stone6142" target="_blank">
+          <i class="fab fa-patreon"></i>
+        
+        </a>
+      </li>
+      <li>
+        <a href="mailto:sb4549@k12.sd.us" target="_blank">
+          <i class="fab fa-google"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.amazon.com/hz/wishlist/ls/14J9ATLFVRQAF?ref_=wl_share" target="_blank">
+          <i class="fab fa-amazon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.discordapp.com/users/658366195866796064" target="_blank">
+          <i class="fab fa-discord"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/5df9058d00.js" crossorigin="anonymous"></script>
+<script>
+  const floating_btn = document.querySelector('.floating-btn');
+  const close_btn = document.querySelector('.close-btn');
+  const social_panel_container = document.querySelector(
+	'.social-panel-container'
+  );
+
+  floating_btn.addEventListener('click', () => {
+	social_panel_container.classList.toggle('visible');
+  });
+
+  close_btn.addEventListener('click', () => {
+	social_panel_container.classList.remove('visible');
+    	
+  });
+</script>
